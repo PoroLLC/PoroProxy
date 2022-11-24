@@ -1,4 +1,4 @@
-**First**, Open each installation file. (NODJS AND DISCORDJS)
+**First**, Open each installation file. (NODEJS AND DISCORDJS)
 
 **Then**, Open the bots folder and start editing the token in config.json, config2.json, and config3.json.
 
