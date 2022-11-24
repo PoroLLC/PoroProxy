@@ -11,7 +11,7 @@ const client = new Discord.Client({
 
 
 // Requiring module
-const process = require('process') // Uses the NODE.JS process module - it comes with it lol ok k o lxd omg lol ok k
+const process = require('process') // Uses the NODE.JS process module.
 
 // Prints the output as an object
 console.log(process.memoryUsage())
