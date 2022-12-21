@@ -5,7 +5,7 @@ echo ██████╔╝██║░░██║██████╔╝█
 echo ██╔═══╝░██║░░██║██╔══██╗██║░░██║██╔═══╝░██╔══██╗██║░░██║░██╔██╗░░░╚██╔╝░░
 echo ██║░░░░░╚█████╔╝██║░░██║╚█████╔╝██║░░░░░██║░░██║╚█████╔╝██╔╝╚██╗░░░██║░░░
 echo ╚═╝░░░░░░╚════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░
-echo Setting up this PoroProxy..
+echo Setting up PoroProxy..
 echo Install node.js from https://nodejs.org/en recommended version.
 :PROMPT
 SET /P AREYOUSURE=Did you install it? (Y/[N])?
