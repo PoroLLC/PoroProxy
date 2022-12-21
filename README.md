@@ -18,4 +18,4 @@
 
 *CREATED BY "Poro LLC" | AntPlayz and LavaKid.*
 
-**Licensed under ISC License,** **OPEN SOURCE**
+**Licensed under ISC License,** **OPEN SOURCE.**
