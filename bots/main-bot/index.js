@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
-const config = require('./config.json');
+const proxyToken = require('../../tokens.json');
 
+const bootup = require('./../../api/essentials/startupmsg.json')
 
 const client = new Discord.Client({
     intents:  [
@@ -9,6 +10,10 @@ const client = new Discord.Client({
     ]
 })
 
+// Proxy starting up. // DO NOT EDIT
+console.log(bootup.startupMsg);
+console.log("[POROPROXY] Proxy has loaded!")
+// DO NOT EDIT
 
 // Requiring module
 const process = require('process') // Uses the NODE.JS process module.
@@ -27,7 +32,9 @@ client.on("ready", () => {
     });
 });
 
-client.login(config.token);
+// YOUR CODE ABOVE HERE
+
+client.login(proxyToken.proxyToken);
 
 
 

@@ -1,11 +1,5 @@
+:: PoroProxy run.bat file coded by Lava.
 echo Starting up all the bots..
-cd bots/main-bot
-echo Starting up the proxy..
-node .
-cd ..
-cd bots/sub-bot-1
-echo Starting up subbot 1..
-cd ..
-cd bots/sub-bot-2
-echo Starting up subbot 2..
-echo All bots are online! -- Running poroproxy@v2.
+start cmd /k node bots/main-bot/index.js
+start cmd /k node bots/sub-bot-1/index2.js
+start cmd /k node bots/sub-bot-2/index3.js

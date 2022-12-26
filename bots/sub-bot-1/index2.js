@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
-const config2 = require('./config2.json');
-const code = require('./code.js');
+const subToken = require('../../tokens.json');
 
 const client = new Discord.Client({
     intents:  [
@@ -23,7 +22,9 @@ client.on("ready", () => {
     });
 });
 
-client.login(config2.token);
+// YOUR CODE ABOVE HERE
+
+client.login(subToken.subToken);
 
 
 
